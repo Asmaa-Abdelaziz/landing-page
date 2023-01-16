@@ -10,7 +10,7 @@ I used IntersectionObserver not getBoundingClientRect() as it sometimes leads to
 #Navigation Bar 
 created automatically using JavaScript 
 
-# button for smooth scrolling to top
+#button for smooth scrolling to top
 
 created by : Asmaa Abdelaziz
 Using HTML, CSS and JS
