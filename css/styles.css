@@ -87,7 +87,7 @@ section {
 
 .navbar__menu .menu__link.active {
   color: #fff;
-  background-color: #333;
+  background-color: #333 !important;
   transition: ease 0.3s all;
   padding: 0.5em;
   border-radius: 4px;
@@ -114,13 +114,6 @@ button:hover {
   font-weight: bold;
   text-decoration: none;
   color: #000;
-}
-
-.navbar__menu .menu__link:hover {
-  background: rgb(145, 130, 163);
-  color: rgb(19, 9, 42);
-  transition: ease 0.3s all;
-  border-radius: 4px;
 }
 
 /* Header Styles */

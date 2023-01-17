@@ -23,16 +23,16 @@
  *
  */
 // SELECTORS
-var myNav = document.getElementById("navbar__list");
-var navedSections = document.querySelectorAll("section");
+let myNav = document.getElementById("navbar__list");
+let navedSections = document.querySelectorAll("section");
 
 /***************CREATE NAV BAR*****************/
 // adding nav items depending on the number of sections
 function createNavs() {
-  for (var navNum = 1; navNum <= navedSections.length; navNum++) {
+  for (let navNum = 1; navNum <= navedSections.length; navNum++) {
     //console.log(navNum); //check the number of nav sections = number of sections
-    var navBulls = document.createElement("li"); // create a li element inside ul element
-    var navText = document.createTextNode("Section " + navNum); // text for naming every item on this nav
+    let navBulls = document.createElement("li"); // create a li element inside ul element
+    let navText = document.createTextNode("Section " + navNum); // text for naming every item on this nav
     // append all child to its parent node
     navBulls.appendChild(navText);
     myNav.appendChild(navBulls);
@@ -48,7 +48,7 @@ createNavs();
 2- add event listener on li item when click on it scroll to section that have same name
 */
 function navLinkSection() {
-  var navLinkItems = document.querySelectorAll("li");
+  let navLinkItems = document.querySelectorAll("li");
   for (
     let itemsCounter = 0;
     itemsCounter < navLinkItems.length;
@@ -91,12 +91,12 @@ let observer = new IntersectionObserver(callbackFunction, options);
 navedSections.forEach((section) => observer.observe(section));
 
 /**********GO TOP SMOTHLLY*********/
-var toTopButton = document.getElementById("to-top");
+let toTopButton = document.getElementById("to-top");
 toTopButton.addEventListener("click", function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 /**
- * End Global Variables
+ * End Global variables
  * Start Helper Functions
  *
  */
