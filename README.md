@@ -1,6 +1,6 @@
 # Landing Page Project
 
-This is the first project on Udacity FWD professional web, it's about adding sections to the landning page and use navigation bar to smooth scrolling into this sections using JavaScript.
+This is the first project on Udacity FWD professional web, it's about adding sections to the landing page and using a navigation bar to smooth scrolling into these sections using JavaScript.
 
 I added more sections using HTML.
 
